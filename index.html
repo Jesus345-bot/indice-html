@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jesus Alberto Cortes Garcia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portafolio personal, Jesús Alberto Cortes García, desarrollo de software, programación, tecnologías de la información">
+    <meta name="description" content="Portafolio personal de Jesús Alberto Cortes García, estudiante de desarrollo de software y tecnologías de la información.">
+
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Inicio | Portafolio Personal</title>
+</head>
+
+<body class="bg-white text-dark">
+
+    
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./imagenes/IMG_20200621_151630.jpg"
+                     alt="Fotografía personal"
+                     width="45" height="45"
+                     class="rounded-circle me-2">
+                Mi portafolio
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Mostrar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="DatosPersonales.html">Datos personales</a>
+                    <a class="nav-link" href="DatosAcademicos.html">Datos académicos</a>
+                    <a class="nav-link" href="DatosLaborales.html">Datos laborales</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carruselPersonal" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselPersonal"
+                data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Imagen 1"></button>
+
+            <button type="button" data-bs-target="#carruselPersonal"
+                data-bs-slide-to="1" aria-label="Imagen 2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="./imagenes/Yo.jpg"
+                     class="d-block w-100"
+                     alt="Fotografía personal de Jesús Alberto Cortes García"
+                     style="height: 450px; object-fit: cover;">
+
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                    <h5>Bienvenido a mi portafolio</h5>
+                    <p>Conoce más sobre mí, mis estudios y mis conocimientos.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./imagenes/Escuela.jpeg"
+                     class="d-block w-100"
+                     alt="Fotografía relacionada con mi formación académica"
+                     style="height: 450px; object-fit: cover;">
+
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                    <h5>Mi formación académica</h5>
+                    <p>Estudiante del área de tecnologías de la información y desarrollo de software.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+            data-bs-target="#carruselPersonal" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+            data-bs-target="#carruselPersonal" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+
+    </div>
+
+    <div class="container mt-4">
+        <div class="row g-3 justify-content-center text-center">
+
+            <div class="col-4 col-md-3 col-lg-2">
+                <a href="index.html" class="text-dark text-decoration-none">
+                    <i class="bi bi-house-door-fill fs-1"></i>
+                    <p>Inicio</p>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-3 col-lg-2">
+                <a href="DatosPersonales.html" class="text-dark text-decoration-none">
+                    <i class="bi bi-person-fill fs-1"></i>
+                    <p>Datos personales</p>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-3 col-lg-2">
+                <a href="DatosAcademicos.html" class="text-dark text-decoration-none">
+                    <i class="bi bi-mortarboard-fill fs-1"></i>
+                    <p>Estudios</p>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-3 col-lg-2">
+                <a href="DatosLaborales.html" class="text-dark text-decoration-none">
+                    <i class="bi bi-briefcase-fill fs-1"></i>
+                    <p>Experiencia</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Acerca de mi portafolio</h2>
+
+        <div class="row g-4 align-items-center">
+
+            <div class="col-12 col-md-6">
+                <h3>Todo sobre mi</h3>
+
+                <p>
+                    Mi nombre es Jesús Alberto Cortes García.
+                    Soy estudiante del área de tecnologías de la información
+                    y desarrollo de software.
+                </p>
+
+                <p>
+                    Me gusta mi carrera y espero tener la oportunidad
+                    de desarrollar una aplicación que ayude a las personas.
+                    Actualmente sigo mejorando mis conocimientos en
+                    programación, desarrollo web y bases de datos.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-6 text-center">
+                <img src="./imagenes/Yo.jpg"
+                     class="img-fluid rounded shadow"
+                     alt="Jesús Alberto Cortes García"
+                     style="max-height: 350px;">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <h2 class="text-center mb-4">Conoce más sobre mí</h2>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-person-vcard fs-1"></i>
+                        <h5 class="card-title mt-3">Datos personales</h5>
+                        <p class="card-text">
+                            Conoce un poco más sobre mi perfil e intereses personales.
+                        </p>
+                        <a href="DatosPersonales.html" class="btn btn-dark">
+                            Ver información
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-mortarboard fs-1"></i>
+                        <h5 class="card-title mt-3">Datos académicos</h5>
+                        <p class="card-text">
+                            Consulta información sobre mis estudios y formación académica.
+                        </p>
+                        <a href="DatosAcademicos.html" class="btn btn-dark">
+                            Ver información
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-briefcase fs-1"></i>
+                        <h5 class="card-title mt-3">Datos laborales</h5>
+                        <p class="card-text">
+                            Consulta información sobre mi experiencia y mis datos de contacto.
+                        </p>
+                        <a href="DatosLaborales.html" class="btn btn-dark">
+                            Ver información
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row text-center g-3">
+
+                <div class="col-6 col-md-3">
+                    <a href="index.html" class="text-white text-decoration-none">
+                        <i class="bi bi-house-fill me-1"></i> INICIO
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <a href="DatosPersonales.html" class="text-white text-decoration-none">
+                        <i class="bi bi-person-fill me-1"></i> PERSONAL
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <a href="DatosAcademicos.html" class="text-white text-decoration-none">
+                        <i class="bi bi-book-fill me-1"></i> ESTUDIOS
+                    </a>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="text-center mb-0">
+                © 2026 Jesús Alberto Cortes García | Portafolio personal
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
